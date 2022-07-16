@@ -42,7 +42,7 @@ body {font-family: 'Roboto', sans-serif; color: var(--title-color);}
     color: #757575;}
 
 /* -----HERO----- */
-.hero {background-color: #757575;}
+.hero {background-color: #2F303A}
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -51,7 +51,7 @@ body {font-family: 'Roboto', sans-serif; color: var(--title-color);}
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;}
-.hero-btn {
+.hero-btn {cursor: pointer;
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
@@ -111,7 +111,7 @@ body {font-family: 'Roboto', sans-serif; color: var(--title-color);}
     color: var(--text-color);}
 
 /* -----FOOTER----- */
-.footer {background-color: #757575;}
+.footer {background-color: #2F303A}
 .footer-logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -121,13 +121,16 @@ body {font-family: 'Roboto', sans-serif; color: var(--title-color);}
     letter-spacing: 0.03em;
     color: #2196F3;}
 .footer-logo-studio {color: #ffffff;}
-.footer-address-link {
+.footer-address-link {font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;}
-.footer-link {
+.footer-address-link:hover {color: var(--accent-color);}
+.footer-link:hover {color: var(--accent-color);}
+.footer-link {color: var(--accent-color);}
+.footer-link {font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -137,7 +140,7 @@ body {font-family: 'Roboto', sans-serif; color: var(--title-color);}
 
 
 /*  ----------PORTFOLIO---------- */
-.filter-btn {
+.filter-btn {cursor: pointer;
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
